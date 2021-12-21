@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+  padding: 16px 20px;
+  margin-right: 16px;
+  transition: 0.2s;
+}
+
+a:hover {
+  font-weight: bold;
+  color: rgb(97, 139, 255);
+  border-bottom: 2px solid rgb(97, 139, 255);
+}
+
+ul::after {
+  content: "";
+  clear: left;
+  display: block;
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
