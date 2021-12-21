@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.grandma {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #212529;
+}
+
+.parent {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #effef7;
+  position: relative;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.red {
+  background-color: red;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
